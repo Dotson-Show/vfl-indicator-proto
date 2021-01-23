@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Realnap Indicator</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/timer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="px-2 pt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mt-5 mb-3 heading-text-black">
+                PREDICTION
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 col-sm-8 text-center">
+                <div id="main-prediction-contain" class="shadow">
+                    <div id="prediction-card-header" class="d-flex justify-content-between align-items-center">
+                        <div id="season-container" class="w-50 px-1 py-2 heading-text-white">
+                            SEASON: 8748345
+                        </div>
+                        <div id="match-day-container" class="w-50 px-1 py-2 heading-text-green">
+                            MATCH DAY: 17
+                        </div>
+                    </div>
+                    <div id="prediction-card-body" class="px-1 px-md-5">
+                        <div class="heading-text-black my-3">
+                            TEAMS
+                        </div>
+                        <div id="teams-container" class="py-3 px-4">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div id="img-container" class="mx-auto my-2">
+                                        <img class="img-fluid" src="./assets/img/jersey1.png" alt="Home Jersey">
+                                    </div>
+                                    <div class="team-text">
+                                        VFL Amsterdam
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div id="versus" class="rounded-circle d-flex mx-auto mt-4">
+                                        <div class="m-auto">
+                                            VS
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div id="img-container" class="mx-auto my-2">
+                                        <img class="img-fluid" src="./assets/img/jersey2.png" alt="Home Jersey">
+                                    </div>
+                                    <div class="team-text">
+                                        VFL Berlin
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="action-container">
+                            <div class="d-flex justify-content-between align-items-center py-2">
+                                <a id="action-button" class="btn btn-success px-3" href="#">
+                                    BET <span class="blink">Over 1.5</span> Now
+                                </a>
+                                <div id="timer"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/timer.js"></script>
+</body>
+
+</html>
